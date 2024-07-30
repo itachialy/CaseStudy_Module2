@@ -29,20 +29,4 @@ public class Student extends Person{
         return super.getId() + "," + super.getCode()+ "," + super.getName()+ "," +
                 super.getBirthday()+ "," + super.getEmail()+ "," + className;
     }
-//    public void inputForm(){
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Nhap id hoc vien : ");
-//        int id = Integer.parseInt(sc.nextLine());
-//        System.out.print("Nhap ma hoc vien : ");
-//        String code = sc.nextLine();
-//        System.out.print("Nhap ten hoc vien: ");
-//        String name = sc.nextLine();
-//        System.out.println("Nhap ngay sinh (xxxx/yy/zz) : ");
-//        String temp = sc.nextLine();
-//        LocalDate birthday = LocalDate.parse(temp);
-//        System.out.println("Nhap email hoc vien : ");
-//        String email = sc.nextLine();
-//        System.out.println("Nhap lop : ");
-//        String className = sc.nextLine();
-//    }
 }
